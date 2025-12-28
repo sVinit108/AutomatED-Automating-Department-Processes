@@ -82,3 +82,55 @@ Vikrant Singh — Development and integration
 📄 Project Context
 
 This project was developed as part of the Bachelor of Engineering (Computer Engineering) Final Year Project, focusing on applying software engineering principles to solve a real institutional problem.
+
+🏗️ System Architecture
+
+The overall system architecture follows a modular design where user interactions are routed through a centralized application layer that handles data management and analytics.
+
+High-level workflow:
+
+Users interact with dashboards or data-entry modules
+
+The application layer manages CRUD operations and requests
+
+Data is fetched from the database and processed for analytics
+
+Graphs and visual insights are generated dynamically
+
+<p align="center"> <img src="assets/architecture.png" alt="System Architecture" width="85%"> </p>
+📐 Application Design (UML Overview)
+
+The system is structured using object-oriented principles with clear separation between:
+
+Authentication and administration
+
+Application navigation
+
+Training and placement modules
+
+Utility services for data fetching and graph generation
+
+<p align="center"> <img src="assets/uml.png" alt="UML Diagram" width="85%"> </p>
+📊 Dashboard & Analytics
+
+AutomatED provides interactive dashboards to visualize placement and training data, enabling quick insights for administrators.
+
+Key visualizations include:
+
+Placement distribution across companies
+
+Role-wise hiring trends
+
+Package distribution analysis
+
+Category-wise student distribution
+
+<p align="center"> <img src="assets/dashboard.png" alt="Dashboard View" width="95%"> </p>
+📋 Data Management Interface
+
+Administrators can view, filter, and manage detailed placement records through a structured tabular interface.
+
+<p align="center"> <img src="assets/table.png" alt="Placement Records Table" width="95%"> </p>
+📈 Sample Analytics Outputs
+<p align="center"> <img src="assets/placement_records.png" width="45%"> <img src="assets/package_distribution.png" width="45%"> </p>
+
